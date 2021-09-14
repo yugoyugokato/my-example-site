@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+    font-family: poppins regular, sans-serif;
+  }
+  
+  h1 {
+    font-size: 2.6rem;
+  }
+  
+  li,
+  button,
+  label,
+  input,
+  p {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 3.0rem;
+  }
+  
+  h3 {
+    font-size: 3rem;
+    font-weight: normal;
+  }
+  
+  h4,
+  h5 {
+    font-size: 2.8rem;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+
+
+#logo{
+    margin-left:1rem;
+}
+/* NAV  */
+.navbar-toggle {
+    margin-top: 1.5rem;
+    border: none;
+    background: rgb(255, 145, 0);
+}
+.navbar {
+    background: rgb(255, 145, 0);
+    color: white;
+    border: none;
+}
+/* HERO */
+.hero{
+    min-height: 60vh;
+    background: 
+    url("/img/roman-grachev-eygJ8wxgfng-unsplash.jpg");
+
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 145, 0) ;
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+    align-items: flex-end;
+    text-align: end;
+}
+.hero h2{
+    font-weight: bold;
+}
+
